@@ -1,1 +1,2 @@
-/env.init
+#ignoring database environmental setup
+env.init
