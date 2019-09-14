@@ -1,0 +1,94 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --transparent: #000000;
+
+    --default-color: #2BBBAD;
+    --default-color-dark: #00695c;
+    --primary-color: #4285F4;
+    --primary-color-on: #ffffff;
+    --primary-color-dark: #0d47a1;
+    --primary-color-dark-on: #ffffff;
+    ;
+    --secondary-color: #aa66cc;
+    --secondary-color-on: #ffffff;
+    --secondary-color-dark: #9933CC;
+    --secondary-color-dark-on: #ffffff;
+
+
+    --elegant-color: #2E2E2E;
+    --elegant-color-dark: #212121;
+    --stylish-color: #4B515D;
+    --stylish-color-dark: #3E4551;
+    --unique-color: #3F729B;
+    --unique-color-dark: #1C2331;
+    --special-color: #37474F;
+    --special-color-dark: #263238;
+
+    --btn-height: 35px;
+    --btn-right-padding: 8px;
+    --btn-left-padding: 8px;
+    --btn-top-padding: 0px;
+    --btn-bottom-padding: 0px;
+    --btn-border-radius: 5px;
+    --btn-primary-color: var(--blue);
+
+    --font-size: 12px;
+    --text-small: calc(var(--font-size)*.8);
+    --text-medium: var(--font-size);
+    --text-large: calc(var(--font-size)*1.6);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn {
+    padding: var(--btn-top-padding) var(--btn-right-padding) var(--btn-bottom-padding) var(--btn-left-padding);
+    font-size: var(--text-medium);
+    display: inline-block;
+    height: var(--btn-height);
+    border-radius: var(--btn-border-radius);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.text-small {
+    font-size: var(--text-small) !important;
+}
+
+.text-medium {
+    font-size: var(--text-medium) !important;
+}
+
+.text-large {
+    font-size: var(--text-large) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--primary-color-on);
+
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--secondary-color-on);
+}
+
+.elegant-stylish-theme.btn-primary {
+    background-color: var(--elegant-color);
+    color: var(--primary-color-on);
+
+}
+
+.elegant-stylish-theme.btn-secondary {
+    background-color: var(--stylish-color);
+    color: var(--secondary-color-on);
+
+}
